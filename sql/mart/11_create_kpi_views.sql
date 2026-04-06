@@ -1,0 +1,2 @@
+-- Create KPI views for portfolio monitoring and risk reporting.
+-- Placeholder for overdue ratio, utilization, default rates and segment metrics.

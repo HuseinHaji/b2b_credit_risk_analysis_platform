@@ -1,0 +1,2 @@
+-- Load staging tables from raw CSV sources.
+-- This file is a placeholder for COPY commands or ETL logic.
