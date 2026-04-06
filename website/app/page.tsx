@@ -13,7 +13,7 @@ export default function HomePage() {
         <SectionHeader
           eyebrow="Overview"
           title="A realistic credit risk analytics case study"
-          description="An end-to-end portfolio project covering synthetic trade receivables data generation, PostgreSQL warehousing, KPI modeling, Power BI dashboarding, and a deployable public case-study website."
+          description="An end-to-end portfolio project covering synthetic trade receivables data generation, PostgreSQL warehousing, KPI modeling, Looker Studio dashboarding, and a deployable public case-study website."
         />
         <div className="mt-8 grid gap-6 md:grid-cols-3">
           {siteContent.overviewMetrics.map((item) => (
@@ -56,6 +56,24 @@ export default function HomePage() {
       </section>
 
       <DashboardGallery />
+
+      <section className="mx-auto max-w-6xl px-6 py-16 border-t border-slate-200">
+        <SectionHeader
+          eyebrow="Interactive BI"
+          title="Embedded Looker Studio report"
+          description="Publish your Looker Studio dashboard and paste the embed URL below to make the case study fully interactive for recruiters and hiring managers."
+        />
+        <div className="mt-8 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
+          <iframe
+            title="B2B Credit Risk Dashboard"
+            src="https://lookerstudio.google.com/embed/reporting/YOUR_REPORT_ID/page/YOUR_PAGE_ID"
+            width="100%"
+            height="720"
+            style={{ border: 0 }}
+            allowFullScreen
+          />
+        </div>
+      </section>
 
       <footer className="border-t border-slate-200 py-10">
         <div className="mx-auto max-w-6xl px-6 text-sm text-slate-500">

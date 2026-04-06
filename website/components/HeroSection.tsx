@@ -45,7 +45,7 @@ export function HeroSection() {
             </div>
             <div className="rounded-2xl bg-slate-50 p-4">
               <p className="text-xs uppercase tracking-wide text-slate-500">BI</p>
-              <p className="mt-2 text-lg font-semibold">Power BI Monitoring</p>
+              <p className="mt-2 text-lg font-semibold">Looker Studio Monitoring</p>
             </div>
           </div>
         </div>

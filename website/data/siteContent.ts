@@ -7,7 +7,7 @@ export const siteContent = {
     },
     {
       label: "Core Stack",
-      value: "Python + PostgreSQL + Power BI",
+      value: "Python + PostgreSQL + Looker Studio",
       description: "Synthetic data generation, warehouse modeling, KPI logic, and dashboard reporting."
     },
     {
